@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _printbinary - coverts unsigned integer to binary
+ * _printbinary - covert unsigned integer to binary
  * @H: argument
  * Return: value of printed number
  */

@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _printchar - prints a char.
- * @H: arguments.
+ * _printchar - print a char.
+ * @H: argument.
  * Return: 1.
  */
 

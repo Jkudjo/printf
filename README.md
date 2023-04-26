@@ -21,4 +21,4 @@ SUPPORTING FILES.
 
 GOAL
 *Test collaborative skills.
-
+*Critical Thinking 
