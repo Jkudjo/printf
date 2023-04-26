@@ -2,7 +2,7 @@
 
 /**
  * _puts - prints a string
- * @H: a string
+ * @H: argument.
  *
  * Return: returns the number printed
  */

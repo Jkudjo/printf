@@ -2,7 +2,7 @@
 
 /**
 * _printuns - print an unsigned number
-* @H: arguments.
+* @H: argument.
 *
 * Return: returns the number of characters printed
 */

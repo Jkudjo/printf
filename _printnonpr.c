@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _printnonpr - print non printable characters
- * @H: arguments
- * Return: the length of the string.
+ * @H: argument.
+ * Return: the length of a string.
  */
 
 int _printnonpr(va_list H)

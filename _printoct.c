@@ -2,7 +2,7 @@
 
 /**
 * _printoct - converts an unsigned int to octal
-* @H: arguments.
+* @H: argument.
 *
 * Return: returns the number of characters printed
 */
