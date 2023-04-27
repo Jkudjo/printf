@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _printf - produce output according to a format
+ * _printf - produces output according to a format
  * @format: identifier
  *
  * Return: counter
@@ -14,7 +14,7 @@ int _printf(const char *format, ...)
 		{"%i", _printint}, {"%d", _printint},
 		{"%b", _printbinary}, {"%u", _printuns},
 		{"%o", _printoct}, {"%x", _printhex}, {"%X", _printHEXA},
-		{"%S", _printnonpr}, {"%p", _printaddr}
+		{"%S", _printnonpr}, {"%p", _printaddr}, {"%r", _printrev}
 	};
 
 	va_list H;
@@ -28,7 +28,7 @@ loop:
 	while (format[i])
 	{
 		j = 0;
-		while (j <= 11)
+		while (j <= 12)
 		{
 			if (m[j].id[0] == format[i] && m[j].id[1] == format[i + 1])
 			{
