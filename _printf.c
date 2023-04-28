@@ -14,7 +14,8 @@ int _printf(const char *format, ...)
 		{"%i", _printint}, {"%d", _printint},
 		{"%b", _printbinary}, {"%u", _printuns},
 		{"%o", _printoct}, {"%x", _printhex}, {"%X", _printHEXA},
-		{"%S", _printnonpr}, {"%p", _printaddr}, {"%r", _printrev}
+		{"%S", _printnonpr}, {"%p", _printaddr}, {"%r", _printrev},
+		{"%R", _printrot13}
 	};
 
 	va_list H;
@@ -28,7 +29,7 @@ loop:
 	while (format[i])
 	{
 		j = 0;
-		while (j <= 12)
+		while (j < 14)
 		{
 			if (m[j].id[0] == format[i] && m[j].id[1] == format[i + 1])
 			{

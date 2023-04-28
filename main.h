@@ -36,6 +36,7 @@ int printhex(unsigned long int n);
 int _printaddr(va_list H);
 int _printnonpr(va_list H);
 int _printrev(va_list H);
+int _printrot13(va_list H);
 
 
 #endif
